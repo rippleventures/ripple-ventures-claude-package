@@ -1,0 +1,8 @@
+{
+  "name": "productivity",
+  "version": "0.1.0",
+  "description": "Productivity skills for knowledge workers and venture investors: weekly review with calendar-and-task overview, email drafter that learns the user's voice, meeting prep brief for one person or many, and a daily news brief curated to the user's industry and role.",
+  "author": {
+    "name": "Ripple Ventures Team"
+  }
+}

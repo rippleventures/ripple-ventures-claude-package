@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+._.DS_Store
+**/.DS_Store
+
+# sed leftovers (workspace couldn't delete these)
+*.bak
+
+# Per-user calibration data — should never be committed to a shared repo.
+# Each user's calibration lives on their machine; only the README and _template.md
+# are part of the plugin source.
+**/calibration/[0-9]*.md
+**/calibration/setup.md
+**/calibration/profile.md
+
+# Per-user references that get populated during first-run setup — these may
+# contain personal voice samples, precedent docs, or tool config. Don't ship.
+**/references/voice-guide.md
+**/references/profile.md
+**/references/template.md
+**/references/examples/
+**/references/sample-memos/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Build artifacts
+*.plugin
+/tmp/
+
+# Internal deployment notes — never commit
+PUBLISHING.md

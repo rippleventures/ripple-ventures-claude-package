@@ -1,0 +1,23 @@
+{
+  "name": "ripple-ventures-cowork-plugins",
+  "owner": {
+    "name": "Ripple Ventures Team"
+  },
+  "plugins": [
+    {
+      "name": "productivity",
+      "source": "./productivity-plugin",
+      "description": "Productivity skills for knowledge workers and venture investors: weekly review with calendar-and-task overview, email drafter that learns the user's voice, meeting prep brief for one person or many, daily news brief curated to the user's industry and role, and a one-time setup flow that calibrates the other skills."
+    },
+    {
+      "name": "deals",
+      "source": "./deals-plugin",
+      "description": "Deal-context skills for venture investors and bankers: investment memo drafter, in-house general counsel for term sheets and SAFEs, plus orchestration skills for market research, earnings review, valuation review, model building, and pitch deck creation. Adapted from Anthropic's financial-services reference repo with custom additions."
+    },
+    {
+      "name": "microsoft-office",
+      "source": "./microsoft-office-plugin",
+      "description": "Foundation skills, slash commands, and scripts for creating and auditing Microsoft Excel and PowerPoint files. Required dependency for the deals plugin."
+    }
+  ]
+}

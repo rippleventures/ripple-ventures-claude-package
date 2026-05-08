@@ -1,0 +1,8 @@
+{
+  "name": "deals",
+  "version": "0.1.0",
+  "description": "Deal-context skills for venture investors and bankers: investment memo drafter, in-house general counsel for term sheets and SAFEs, plus orchestration skills for market research, earnings review, valuation review, model building, and pitch deck creation, adapted from Anthropic's financial-services reference repo.",
+  "author": {
+    "name": "Ripple Ventures Team"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "microsoft-office",
+  "version": "0.1.0",
+  "description": "Foundation skills for creating and auditing Microsoft Excel and PowerPoint files. Includes xlsx-author (base Excel creation), pptx-author (base PowerPoint creation), and audit-xls (Excel formatting standards and QC checks). Used by other plugins (deals, financial analysis, etc.) and reusable in any workflow that produces Office files.",
+  "author": {
+    "name": "Ripple Ventures Team"
+  }
+}
